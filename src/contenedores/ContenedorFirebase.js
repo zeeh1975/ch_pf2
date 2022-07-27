@@ -15,7 +15,7 @@ class ContenedorFirebase {
     this.query = this.db.collection(collection);
   }
 
-  // agreag un nuevo item
+  // agrega un nuevo item
   async save(newItem) {
     const doc = this.query.doc();
     newItem.timestamp = + new Date();

@@ -14,7 +14,7 @@ const firebaseServiceAccount = require(path.join(
 // local
 //const mongoDBURL = "mongodb://127.0.0.1:27017/ecommerce"
 //  atlas
-const mongoDBURL = "mongodb+srv://ch_pf2:ofEcTPpTNT9ailTs@cluster0.ia133vo.mongodb.net/ecommerce"
+const mongoDBURL = "mongodb+srv://user:password@cluster0.ia133vo.mongodb.net/ecommerce"
 const mongoDBProductosModel = path.join(__dirname, "../src/models/productosModel.js");
 const mongoDBCarritosModel = path.join(__dirname, "../src/models/carritosModel.js");
 
